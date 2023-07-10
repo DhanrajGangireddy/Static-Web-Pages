@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+  <div class="container">
+    <img src="11.png" class="avatar">
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+      <div class="form-group">
+        <label for="username">Phone Number or Email:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+        <button type="submit"><a href='register.html'>Register</a></button>
+      </div>
+      <div class="forgot-password">
+        <a href="forget.html">Forgot Password?</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+  <style>
+  body
+  {
+   margin: 0%;
+   padding: 0%;
+   font-family: Arial, sans-serif;
+   background: url('2.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .container {
+   width: 300px;
+   padding:70px;
+   margin:150px  500px;
+   background:#232324;
+   opacity:0.8;
+   border-radius:35px;
+   position:absolute;
+ }
+ .avatar{
+  height:auto;
+  max-width:24%;
+  margin-top: -20px;
+ }
+ a {
+      color: #ffffff; /* Change link text color to white */
+      text-decoration: none; /* Remove underline */
+   }
+ 
+ h2 {
+   text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   margin: -60px -10px 80px 2px; ;
+   color:#cde210;
+   letter-spacing: 0.8rem;
+   
+ }
+
+ .form-group {
+      margin: 15px 2px 2px -55px;
+  }
+ 
+ .form-group label{
+   font-size: 17px;
+   font-style:normal;
+   color:#fff;
+   font-weight:500;
+   margin-right: 90px;
+
+ }
+ 
+ .form-group input {
+   width: 105%;
+   padding: 10px;
+   font-size: 17px;
+   border-radius: 20px;
+   color:#dc0a0a;
+   border: 1px solid #05531c;
+   margin:9px;
+ }
+ 
+ .form-group button {
+   margin:10px 50px 0px 20px;
+   width:100px;
+   display: inline-block;
+   font-size: 17px;
+   border-radius: 30px;
+   font-weight: 700;
+   border: none;
+   background-color: #0eb01b;
+   text-align: center;
+   padding: 14px;
+   color: #fff;
+   cursor: pointer;
+ }
+ .forgot-password {
+  margin: 9px 8px 0px -30px;;
+}
+
+.forgot-password a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+  </style>
+  </html>

@@ -1,0 +1,88 @@
+    body
+     {
+      margin: 0%;
+      padding: 0%;
+      font-family: Arial, sans-serif;
+      background: url('2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .container {
+      width: 300px;
+      padding:80px;
+      margin:10px 500px 0px;
+      background:#171718;
+      opacity:0.8;
+      border-radius:35px;
+      position:absolute;
+    }
+    a {
+        color: #ffffff; /* Change link text color to white */
+        text-decoration: none; /* Remove underline */
+      }
+    
+    h2 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      margin: -60px 1px 50px 30px ;
+      color:#dbea09;
+      letter-spacing: 0.7rem;
+      
+    }
+    
+    .form-group {
+         margin: 15px 0px 0px -55px;
+     }
+     .avatar{
+      height:auto;
+      max-width:28%;
+      margin: -55px 0px -18px -50px;
+     }
+    
+    .form-group label{
+      font-size: 17px;
+      font-style:normal;
+      color:#fff;
+      font-weight:500;
+      margin-right: 90px;
+
+    }
+    
+    .form-group input {
+      width: 110%;
+      padding: 10px;
+      font-size: 17px;
+      border-radius: 20px;
+      color:#0a0808;
+      border: 1px solid #05531c;
+      margin:9px;
+    }
+    .form-group textarea{
+      width: 110%;
+      padding: 15px;
+      font-size: 17px;
+      margin:9px 10px 1px 4px;
+      font-style: normal;
+      font-family:Arial, Helvetica, sans-serif;
+      border-radius: 20px;
+      color:#0a0808;
+      border: 1px solid #05531c;
+     }
+    
+    .form-group button {
+      margin:30px 0px -80px 150px;
+      width:100px;
+      font-size: 17px;
+      border-radius: 30px;
+      font-weight: 700;
+      border: none;
+      background-color: #0eb01b;
+      text-align: center;
+      padding: 14px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+
